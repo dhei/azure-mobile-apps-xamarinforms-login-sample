@@ -24,7 +24,7 @@ namespace dihei_empty_node.Droid
     public class MainActivity : FormsApplicationActivity, IAuthenticate
     {
         // URL of the mobile app backend.
-        const string applicationURL = @"https://dihei-e2e-app.azurewebsites.net";
+        const string applicationURL = @"https://{myappname}.azurewebsites.net";
 
         // Define a authenticated user.
         private MobileServiceUser user;
