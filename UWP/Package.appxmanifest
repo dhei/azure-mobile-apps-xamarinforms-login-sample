@@ -22,7 +22,7 @@
       </uap:VisualElements>
       <Extensions>
         <uap:Extension Category="windows.protocol">
-          <uap:Protocol Name="zumoe2etestapp">
+          <uap:Protocol Name="url_scheme_of_your_app">
             <uap:DisplayName>dihei_empty_node.UWP</uap:DisplayName>
           </uap:Protocol>
         </uap:Extension>

@@ -54,7 +54,7 @@ namespace dihei_empty_node.Droid
             {
                 // Sign in with Facebook login using a server-managed flow.
                 user = await TodoItemManager.DefaultManager.CurrentClient.LoginAsync(this,
-                    MobileServiceAuthenticationProvider.Google, "zumoe2etestapp");
+                    MobileServiceAuthenticationProvider.Google, "url_scheme_of_your_app");
                 if (user != null)
                 {
                     message = string.Format("you are now signed-in as {0}.",

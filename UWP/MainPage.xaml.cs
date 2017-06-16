@@ -51,7 +51,7 @@ namespace dihei_empty_node.UWP
                 if (user == null)
                 {
                     user = await TodoItemManager.DefaultManager.CurrentClient
-                        .LoginAsync(MobileServiceAuthenticationProvider.Google, "zumoe2etestapp");
+                        .LoginAsync(MobileServiceAuthenticationProvider.Google, "url_scheme_of_your_app");
                     if (user != null)
                     {
                         success = true;

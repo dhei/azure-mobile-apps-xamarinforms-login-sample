@@ -52,7 +52,7 @@ namespace dihei_empty_node.iOS
                 {
                     user = await TodoItemManager.DefaultManager.CurrentClient
                         .LoginAsync(UIApplication.SharedApplication.KeyWindow.RootViewController,
-                            MobileServiceAuthenticationProvider.Google, "zumoe2etestapp");
+                            MobileServiceAuthenticationProvider.Google, "url_scheme_of_your_app");
                     if (user != null)
                     {
                         message = string.Format("You are now signed-in as {0}.", user.UserId);
