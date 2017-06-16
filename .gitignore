@@ -1,0 +1,26 @@
+*.xam
+xpkg
+lib
+.vs/
+*.bak
+*.pfx
+_ReSharper*
+
+# Build results
+bin
+obj
+
+# Ignore generated resource files
+[Rr]esource.[Dd]esigner.cs
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# NuGet
+packages
+*.lock.json
+.nuget/nuget.exe
+*.nuget.targets
+*.nuget.props

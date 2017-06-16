@@ -1,0 +1,12 @@
+﻿{
+  "dependencies": {
+    "Microsoft.Azure.Mobile.Client": "4.0.0",
+    "Xamarin.Android.Support.Annotations": "25.3.1",
+    "Xamarin.Android.Support.v4": "25.3.1",
+    "Xamarin.Build.Download": "0.4.5",
+    "Xamarin.Forms": "2.3.4.247"
+  },
+  "frameworks": {
+    "MonoAndroid,Version=v7.1": {}
+  }
+}
