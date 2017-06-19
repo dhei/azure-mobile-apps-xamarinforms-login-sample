@@ -9,9 +9,13 @@
 	  <PackageReference Include="Microsoft.Azure.Mobile.Client" Version="4.0.0" />
 	</ItemGroup>
 	<ItemGroup>
-	  <None Remove="TodoList.xaml" />
+	  <EmbeddedResource Include="TodoList.xaml">
+	    <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+	  </EmbeddedResource>
 	</ItemGroup>
 	<ItemGroup>
-	  <EmbeddedResource Include="TodoList.xaml" />
+	  <Compile Update="TodoList.xaml.cs">
+	    <SubType>Code</SubType>
+	  </Compile>
 	</ItemGroup>
 </Project>
