@@ -9,7 +9,7 @@ using Microsoft.WindowsAzure.MobileServices;
 
 using Xamarin.Forms;
 
-namespace dihei_empty_node.old.Droid
+namespace dihei_empty_node.Droid
 {
     [Activity(Label = "dihei_empty_node.old.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, IAuthenticate
