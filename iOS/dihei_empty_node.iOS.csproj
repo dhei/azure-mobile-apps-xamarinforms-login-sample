@@ -97,13 +97,15 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\dihei_empty_node\dihei_empty_node.csproj">
-      <Project>{3AFA591D-C115-4AC9-9519-F788373ECDE9}</Project>
-      <Name>dihei_empty_node</Name>
-    </ProjectReference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dihei_empty_node\dihei_empty_node.csproj">
+      <Project>{BF8DD989-3FA2-4FF8-A441-9037B59C9A21}</Project>
+      <Name>dihei_empty_node</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

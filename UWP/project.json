@@ -1,11 +1,7 @@
-{
-  "dependencies": {
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.3.3",
-    "Microsoft.Azure.Mobile.Client": "4.0.0",
-    "Xamarin.Forms": "2.3.4.247"
-  },
+﻿{
+  "dependencies": {},
   "frameworks": {
-    "uap10.0": {}
+    "uap10.0.10586": {}
   },
   "runtimes": {
     "win10-arm": {},
